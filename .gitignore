@@ -1,0 +1,11 @@
+.DS_Store
+._*
+.obsidian/workspace.json
+.obsidian/workspace
+.obsidian/cache
+.obsidian/plugins/remember-cursor-position/cursor-positions.json
+.obsidian/plugins/recent-files-obsidian/data.json
+.idea
+.vault-stats
+.obsidian/plugins/obsidian-pandoc/data.json
+.obsidian

@@ -1,0 +1,53 @@
+{
+  "groups": [
+    {
+      "name": "ghostcloud.rocketmq",
+      "type": "cn.ghostcloud.cloud.starter.rocketmq.impl.JlyRocketMqProperties",
+      "sourceType": "cn.ghostcloud.cloud.starter.rocketmq.impl.JlyRocketMqProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "ghostcloud.rocketmq.consumer-client-callback-executor-threads",
+      "type": "java.lang.Integer",
+      "sourceType": "cn.ghostcloud.cloud.starter.rocketmq.impl.JlyRocketMqProperties"
+    },
+    {
+      "name": "ghostcloud.rocketmq.consumer-pull-batch-size",
+      "type": "java.lang.Integer",
+      "sourceType": "cn.ghostcloud.cloud.starter.rocketmq.impl.JlyRocketMqProperties"
+    },
+    {
+      "name": "ghostcloud.rocketmq.consumer-sub-expression",
+      "type": "java.lang.String",
+      "sourceType": "cn.ghostcloud.cloud.starter.rocketmq.impl.JlyRocketMqProperties"
+    },
+    {
+      "name": "ghostcloud.rocketmq.consumer-sub-expression-trx",
+      "type": "java.lang.String",
+      "sourceType": "cn.ghostcloud.cloud.starter.rocketmq.impl.JlyRocketMqProperties"
+    },
+    {
+      "name": "ghostcloud.rocketmq.enable",
+      "type": "java.lang.Boolean",
+      "sourceType": "cn.ghostcloud.cloud.starter.rocketmq.impl.JlyRocketMqProperties"
+    },
+    {
+      "name": "ghostcloud.rocketmq.namesrv-addr",
+      "type": "java.lang.String",
+      "description": "rocketmq的namesrv地址 @author zhengyongpan @since 2023-01-04 16:04",
+      "sourceType": "cn.ghostcloud.cloud.starter.rocketmq.impl.JlyRocketMqProperties"
+    },
+    {
+      "name": "ghostcloud.rocketmq.topic",
+      "type": "java.lang.String",
+      "sourceType": "cn.ghostcloud.cloud.starter.rocketmq.impl.JlyRocketMqProperties"
+    },
+    {
+      "name": "ghostcloud.rocketmq.topic-trx",
+      "type": "java.lang.String",
+      "sourceType": "cn.ghostcloud.cloud.starter.rocketmq.impl.JlyRocketMqProperties"
+    }
+  ],
+  "hints": []
+}

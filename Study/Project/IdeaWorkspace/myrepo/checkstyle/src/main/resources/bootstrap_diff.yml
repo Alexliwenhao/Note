@@ -1,0 +1,8 @@
+spring:
+  cloud:
+    consul:
+      discovery:
+        test: qubu
+diff: test
+my:
+  test: wode

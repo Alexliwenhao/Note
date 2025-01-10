@@ -1,0 +1,13 @@
+spring:
+  rocketmq:
+    name-server: vm:9876
+    producer:
+      group:
+        test
+rocketmq:
+  name-server: 10.0.3.4:9876
+  producer:
+    group: xxx
+  consumer:
+    group:
+    topic:

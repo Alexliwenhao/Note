@@ -1,0 +1,15 @@
+spring:
+  cloud:
+    consul:
+      discovery:
+        enabled: true
+        register: true
+        deregister: true
+        service-name: ${spring.application.name}
+        prefer-ip-address: true
+        tags: version=1.0
+        ip-address: localhost
+        port: 8084
+        health-check-url: http://${spring.cloud.consul.discovery.ip-address}:${spring.cloud.consul.discovery.port}${server.servlet.context-path}/actuator/health
+        health-check-interval: 10s
+        health-check-critical-timeout: 60s
